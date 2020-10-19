@@ -8,15 +8,12 @@
 そのため, 機械学習の手法 「Weight Agnostic Neural Networks」[GitHub Pages](https://github.com/google/brain-tokyo-workshop/) を用いて, 多数の入力情報群から最適な入力を選択し，モデルの探索を行うことで解決に貢献しようと考えています．
 
 # プログラムの説明
-乗り物酔いを予測するモデルを, MATLAB Simlinkで作成し, 乗り物酔いを低減する軌道の生成と車両制御をそれぞれ, MATLABを用いてプログラムしました. <br>
-* main_az_vehicle_convert0807:<br>
-乗り物酔いを予測するモデルを用いて, 軌道の生成と車両制御の最適化を行うメインプログラム
-* Optimization_az_vehicle_convert0807:<br>
-乗り物酔いを予測するモデルを用いて, 軌道の生成と車両制御の最適化を行う最適化プログラム
-* xf50_az_Evaluation_Vehicle_p0104.m:<br>
-最適化したゲインの評価を行うプログラム
-* analytical_az_pitch_ukita_model.slx:<br>
-乗り物酔いを予測するモデルのSimlink
+現在は,Weight Agnostic Neural Networksの理解と,実際に研究に用いることができるかを確認する簡単なシミュレーションを行っています.<br>
+* one_point_model_.py:<br>
+シミュレーションを行う際の,データセットを作成するプログラム
+* Visualization_Partticipant.py:<br>
+本実験の被験者のデータを可視化するためのプログラム<br>
+* Weight Agnostic Neural Networks[GitHub Pages](https://github.com/google/brain-tokyo-workshop/) <br>
 
 # Author
 * 浮田 凌佑
