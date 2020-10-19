@@ -13,7 +13,7 @@
 シミュレーションを行う際の,データセットを作成するプログラム
 * Visualization_Partticipant.py:<br>
 本実験の被験者のデータを可視化するためのプログラム<br>
-* Weight Agnostic Neural Networks[GitHub Pages](https://github.com/google/brain-tokyo-workshop/) <br>
+* Weight Agnostic Neural Networks [GitHub Pages](https://github.com/google/brain-tokyo-workshop/) <br>
 
 # Author
 * 浮田 凌佑
